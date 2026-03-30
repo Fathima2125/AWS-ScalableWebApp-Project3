@@ -115,6 +115,32 @@ This generates CPU load on EC2 instances.
 
 
 ⸻
+📸 Screenshots
+
+![Launch template created](screenshots/ScalableWebApp-LaunchTemplate.png)
+        ![Application Load balancer created](<screenshots/Application LoadBalancer.png>)
+        ![Target Group created](screenshots/TargetGroup.png)
+        ![Security Group created](screenshots/ScalableWepApp-SecurityGroup.png)
+        ![Autoscaling Group created](<screenshots/AutoscalingGroup created.png>)
+        ![Scalable Web App hosted](<screenshots/Scalable Web App.png>)
+        ![ASG maintains the desired capacity to one even the instance terminated (self-healing architecture)](<screenshots/ASG keeping the desired capacity of instances to One.png>)
+        ![Terminal -connected to instance using ssh client and High CPU load given](<screenshots/Terminall-ssh client & cpu stress.png>)
+        ![Alarm detected](<screenshots/Alarm detected.png>)
+        ![CPU utilization goes high](<screenshots/CPU utilization goes high.png>)
+        ![Increase in CPU load, instance moves to max capacity of 3(scales up)](<screenshots/Instance moved to max capacity.png>)
+        ![stopped CPU load, decrease in CPU load, instances goes to min capacity of one(scales down)](<screenshots/Instances moved to min capacity..png>)
+        ![Overall CPu utilization-scales up and down](<screenshots/Overall CPU utilization graph.png>)
+        ![Inservicesinstancecount during scales up & down process](screenshots/InserviceInstanceCount.png)
+        ![overall activity history of of autoscaling group process](screenshots/AutoscalingGroup-ActivityHistory.png)
+
+
+
+
+
+
+
+
+
 
 📌 Conclusion
 
